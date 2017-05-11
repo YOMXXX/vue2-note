@@ -16,7 +16,6 @@ html {
 
 body,
 html {
-    overflow-x: hidden;
     font-family: 'microsoft yahei', 'simsun', 'Arial Narrow', HELVETICA, sans-serif;
     -webkit-tap-highlight-color: transparent;
 }

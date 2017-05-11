@@ -8,7 +8,13 @@ Vue.use(Vuex)
 
 const state = {
 	item: [],
-	item2: []
+	item2: [],
+	flag: {
+		code: localStorage.getItem('list') && JSON.parse(localStorage.getItem('list')).code || '',
+		name: localStorage.getItem('list') && JSON.parse(localStorage.getItem('list')).name || '',
+		zhanghao: localStorage.getItem('list') && JSON.parse(localStorage.getItem('list')).zhanghao || '',
+		mima: localStorage.getItem('list') && JSON.parse(localStorage.getItem('list')).mima || ''
+	}
 }
 
 export default new Vuex.Store({

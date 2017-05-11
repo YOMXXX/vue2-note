@@ -16,6 +16,8 @@
   "dependencies": {
     "axios": "^0.16.1",
     "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
+    "iview": "^2.0.0-rc.12",
     "jquery": "^3.2.1",
     "vue": "^2.2.6",
     "vue-axios": "^2.0.2",
@@ -23,6 +25,7 @@
     "vuex": "^2.3.1"
   },
   "devDependencies": {
+    "mongoose": "^4.9.6",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
