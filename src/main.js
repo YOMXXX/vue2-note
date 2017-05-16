@@ -16,6 +16,10 @@ Vue.config.productionTip = false
 Vue.use(VueAxios, axios)
 Vue.use(iView)
 
+router.beforeEach((to, from, next) => {
+	console.log(to)
+	next()
+})
 /* eslint-disable no-new */
 new Vue({
     el: '#app',
