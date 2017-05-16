@@ -20,7 +20,10 @@ export default new Router({
         }, {
             name: 'yanzheng',
             path: '/yanzheng',
-            component: yanzheng
+            component: yanzheng,
+            meta: {
+               requiresAuth: true
+            }
         }, {
             name: 'tianjia',
             path: '/tianjia',
